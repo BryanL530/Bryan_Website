@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(19, 166, 235);
+}
+
+img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50px;
+    object-position: 35% center;
+    margin: 5px 5px 5px 5px;
+}
+
+p {
+    font-size: 25px;
+}
+
+#tag {
+    font-weight: bold;
+}
