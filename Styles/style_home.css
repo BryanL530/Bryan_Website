@@ -1,0 +1,15 @@
+body {
+    margin: 0 0 0 0;
+    background-image: url("/Images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    padding: 20px 10px 20px 10px;
+    margin: 0 0 0 0;
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+}
