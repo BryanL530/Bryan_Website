@@ -18,9 +18,13 @@ body {
 }
 
 .nav-head {
-  position: fixed;
   min-width: 100%;
   min-height: 60px;
+}
+
+.head-wrap {
+  position: fixed;
+  width: 100%;
 }
 
 nav {
@@ -53,7 +57,7 @@ nav {
 }
 
 #test {
-  width:90%;
+  width: 90%;
   margin: 1% auto;
   min-height: 2000px;
   
