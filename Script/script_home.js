@@ -2,7 +2,7 @@ const html = document.querySelector('html');
 const content = document.querySelector('.content');
 let count = 1;
 
-html.onclick = doSomething;
+//html.onclick = doSomething;
 
 
 function doSomething() {

@@ -8,26 +8,25 @@ body {
   font-size: 16px;
   line-height: 24px;
 
-  margin: 0 0 0 0;
-  background-image: url("../Images/background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-head {
-  min-width: 100%;
-  min-height: 60px;
+@font-face {
+  font-family: 'Poppins';
+  src: url(../Fonts/Poppins-SemiBold.ttf);
+}
+
+.top-nav {
+  min-width: 800px;
+  height: 60px;
   position: sticky;
   top: 0;
-}
-
-nav {
+  z-index: 1;
+  
   display: flex;
   justify-content: space-between;
-  position: relative;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 .link-list{
@@ -40,7 +39,9 @@ nav {
 .nav-link {
   color: #5B616E;
   padding: 18px 20px;
+  display: block;
   text-decoration: none;
+  
 }
 
 .link-icon {
@@ -53,18 +54,96 @@ nav {
   height: 24px;
 }
 
-.content {
-  width: 50%;
-  margin: 1% auto;
-  min-height: 200vh;
-  
-  background-color: rgba(255, 255, 255, 0.8);
+.welcome-container {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-image: url(../Images/Home-Background.JPG);
+  background-size: cover;
+  background-position: 0 -200px;
+  color: white;  
+}
+
+.welcome-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-item { 
+  color: white;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.home-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+}
+
+.section-head {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.section-text {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+.introduction {
+  height: 600px;
+  display: flex;
+  overflow: hidden;
+}
+
+.introduction-text {
+  display: flex;
+  background-color: rgb(235, 230, 75);
+  width: 40%;
+  padding: 10px 100px;
+}
+
+.introduction-wrapper {
+  align-self: center;
+}
+
+.introduction-img {
+  background-color: aqua;
+  width: 60%;
+  object-fit: cover;
+  object-position: -20px -50px;
+  transform: scale(1.1, 1.1);
+}
+
+.project {
+  padding: 10px 100px;
+  background-color: whitesmoke;
+}
+
+.project-container {
+  height: 325px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-item {
+  height: 275px;
+  width: 400px;
+  background-color: rgb(210, 210, 210);
+  border-radius: 30px;
 }
 
 footer {
-  box-sizing: border-box;
-  min-height: 40vh;
-  padding: 1%;
   background-color: #1E2025;
+  min-height: 200px;
   color: beige;
 }
