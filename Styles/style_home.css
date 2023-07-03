@@ -1,5 +1,6 @@
 html {
   overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -124,14 +125,20 @@ body {
 }
 
 .project {
-  padding: 10px 100px;
+  padding: 10px 300px;
   background-color: whitesmoke;
+  position: relative;
+}
+
+.project-head {
+  display: flex;
+  justify-content: space-between;
 }
 
 .project-container {
   height: 325px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
 }
 
@@ -140,6 +147,26 @@ body {
   width: 400px;
   background-color: rgb(210, 210, 210);
   border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.project-name {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+  padding: 10px 5%;
+  color: #1E2025;
+  background-color: rgba(245, 245, 245, 0.6);
+}
+
+.view-all {
+  color: #5B616E;
+  text-decoration: none;
+  align-self: center;
 }
 
 footer {
