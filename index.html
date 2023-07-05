@@ -12,6 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" type="text/css" href="Styles/style_general.css">
+  <link rel="stylesheet" type="text/css" href="Styles/style_nav.css">
   <link rel="stylesheet" type="text/css" href="Styles/style_home.css">
   <script src="Script/script_home.js" defer></script>
   
@@ -21,7 +23,7 @@
     <ul class="link-list">
       <a class="nav-link" href="index.html">HOME</a>
       <a class="nav-link" href="about_me.html">ABOUT ME</a>
-      <a class="nav-link" href="about_me.html">PROJECT</a>
+      <a class="nav-link" href="project.html">PROJECT</a>
       <a class="nav-link" href="dev_log.html">DEVELOPEMENT LOG</a>
     </ul>
     <ul class="link-icon">
@@ -29,13 +31,13 @@
     </ul>
   </nav>
 
-  <div class="welcome-container">
+  <section class="welcome-container">
     <div class="welcome-wrapper">
-      <h1 class="welcome-item">Welcome to Bryan's Website</h1>
+      <h1>Welcome to Bryan's Website</h1>
     </div>
-  </div>
+  </section>
 
-  <div class="introduction">
+  <section class="introduction">
     <div class="introduction-text">
       <div class="introduction-wrapper">
         <h2 class="section-head">Introduction</h2>
@@ -50,26 +52,35 @@
       class="introduction-img"
       src="Images/drawing.jpg"
       alt="Drawing of Bryan by Bryan">
-  </div>
-  <div class="project">
+  </section>
+
+  <section class="project">
     <div class="project-head">
       <h2 class="section-head">Projects</h2>
-      <a class="view-all" href="">&gt; View all projects</a>
+      <a class="view-all" href="project.html">&gt; View all projects</a>
     </div>
 
     <div class="project-container">
       <a class="project-item" href="">
-        <img style="width: 100%;" src="Images/Home-Background.JPG" alt="">
+        <img class="project-img" src="Images/Home-Background.JPG" alt="">
+        <h4 class="project-tool">HTML &bull; CSS &bull; Javascript</h4>
+        <h4 class="project-date">June, 2023 ~ Present</h4>
         <h3 class="project-name">Bryan Website</h3>
       </a>
-      <div class="project-item">
+      <a class="project-item" href="">
+        <img class="project-img" src="Images/background.jpg" alt="">
+        <h4 class="project-tool">Easy68k</h4>
+        <h4 class="project-date">May, 2023 ~ June, 2023</h4>
         <h3 class="project-name">Something cooler</h3>
-      </div>
-      <div class="project-item">
+      </a>
+      <a class="project-item" href="">
+        <img class="project-img" src="Images/Home-Background.JPG" alt="">
+        <h4 class="project-tool">HTML &bull; CSS &bull; Javascript</h4>
+        <h4 class="project-date">June, 2023 ~ Present</h4>
         <h3 class="project-name">Something very cool and has a really long name</h3>
-      </div>
+      </a>
     </div>
-  </div>
+  </section>
   <footer></footer>
   
 </body>
