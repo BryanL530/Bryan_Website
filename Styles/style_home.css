@@ -92,20 +92,31 @@ h1 {
   color: #1E2025;
 }
 
-.project-img {
+.project-img-container {
   width: 100%;
   height: 275px;
+  overflow: hidden;
   border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
-  margin-bottom: 20px;
+  transition: transform .5s;
+}
+
+.project-item:hover .project-img {
+  transform: scale(1.1);
 }
 
 .project-tool {
   margin: 0;
   font-weight: 300;
   line-height: 16px;
-  color: rgb(130, 130, 252);
+  color: var(--theme-color)
 }
 
 .project-date {
@@ -124,10 +135,4 @@ h1 {
   color: #5B616E;
   text-decoration: none;
   align-self: center;
-}
-
-footer {
-  background-color: #1E2025;
-  min-height: 200px;
-  color: beige;
 }

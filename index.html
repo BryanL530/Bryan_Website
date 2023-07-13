@@ -1,87 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Home Page</title>
+  <head>
+    <title>Home Page</title>
 
-  <meta name="author" content="Bryan Lin">
-  <meta 
-    name="description" 
-    content="This website is built by learning in process">
+    <meta name="author" content="Bryan Lin" />
+    <meta
+      name="description"
+      content="This website is built by learning in process"
+    />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" type="text/css" href="Styles/style_general.css">
-  <link rel="stylesheet" type="text/css" href="Styles/style_nav.css">
-  <link rel="stylesheet" type="text/css" href="Styles/style_home.css">
-  <script src="Script/script_home.js" defer></script>
-  
-</head>
-<body>
-  <nav class="top-nav">
-    <ul class="link-list">
-      <a class="nav-link" href="index.html">HOME</a>
-      <a class="nav-link" href="about_me.html">ABOUT ME</a>
-      <a class="nav-link" href="project.html">PROJECT</a>
-      <a class="nav-link" href="dev_log.html">DEVELOPEMENT LOG</a>
-    </ul>
-    <ul class="link-icon">
-      
-    </ul>
-  </nav>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- temp remove website icon
+  <link rel="icon" type="image/png" href="favicon.png"> -->
 
-  <section class="welcome-container">
-    <div class="welcome-wrapper">
-      <h1>Welcome to Bryan's Website</h1>
-    </div>
-  </section>
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="Styles/style_general.css" />
+    <link rel="stylesheet" href="Styles/style_nav.css" />
+    <link rel="stylesheet" href="Styles/style_home.css" />
+    <script src="Script/script_home.js" defer></script>
+  </head>
+  <body>
+    <nav class="top-nav">
+      <ul class="link-list">
+        <a class="nav-link" href="index.html">HOME</a>
+        <a class="nav-link" href="">ABOUT ME</a>
+        <a class="nav-link" href="project.html">PROJECT</a>
+        <a class="nav-link" href="dev_log.html">DEVELOPEMENT LOG</a>
+      </ul>
+      <ul class="link-icon"></ul>
+    </nav>
 
-  <section class="introduction">
-    <div class="introduction-text">
-      <div class="introduction-wrapper">
-        <h2 class="section-head">Introduction</h2>
-        <p class="section-text">
-          My name is Bryan Lin. I am a motivated software engineering
-          student at University of Washington - Bothell. I have been
-          passionate about solving challenging problems.
-        </p>
+    <section class="welcome-container">
+      <div class="welcome-wrapper">
+        <h1>Welcome to Bryan's Website</h1>
       </div>
-    </div>
-    <img 
-      class="introduction-img"
-      src="Images/drawing.jpg"
-      alt="Drawing of Bryan by Bryan">
-  </section>
+    </section>
 
-  <section class="project">
-    <div class="project-head">
-      <h2 class="section-head">Projects</h2>
-      <a class="view-all" href="project.html">&gt; View all projects</a>
-    </div>
+    <section class="introduction">
+      <div class="introduction-text">
+        <div class="introduction-wrapper">
+          <h2 class="section-head">Introduction</h2>
+          <p class="section-text">
+            My name is Bryan Lin. I am a motivated software engineering student
+            at University of Washington - Bothell. I have been passionate about
+            solving challenging problems.
+          </p>
+        </div>
+      </div>
+      <img
+        class="introduction-img"
+        src="Images/drawing.jpg"
+        alt="Drawing of Bryan by Bryan"
+      />
+    </section>
 
-    <div class="project-container">
-      <a class="project-item" href="">
-        <img class="project-img" src="Images/Home-Background.JPG" alt="">
-        <h4 class="project-tool">HTML &bull; CSS &bull; Javascript</h4>
-        <h4 class="project-date">June, 2023 ~ Present</h4>
-        <h3 class="project-name">Bryan Website</h3>
-      </a>
-      <a class="project-item" href="">
-        <img class="project-img" src="Images/background.jpg" alt="">
-        <h4 class="project-tool">Easy68k</h4>
-        <h4 class="project-date">May, 2023 ~ June, 2023</h4>
-        <h3 class="project-name">Something cooler</h3>
-      </a>
-      <a class="project-item" href="">
-        <img class="project-img" src="Images/Home-Background.JPG" alt="">
-        <h4 class="project-tool">HTML &bull; CSS &bull; Javascript</h4>
-        <h4 class="project-date">June, 2023 ~ Present</h4>
-        <h3 class="project-name">Something very cool and has a really long name</h3>
-      </a>
-    </div>
-  </section>
-  <footer></footer>
-  
-</body>
+    <section class="project">
+      <div class="project-head">
+        <h2 class="section-head">Projects</h2>
+        <a class="view-all" href="project.html">&gt; View all projects</a>
+      </div>
+
+      <div class="project-container">
+        <a class="project-item" href="project.html">
+          <div class="project-img-container">
+            <img
+              class="project-img"
+              src="Images/Home-Background.JPG"
+              alt="Homepage of this website"
+            />
+          </div>
+          <h4 class="project-tool">HTML &bull; CSS &bull; Javascript</h4>
+          <h4 class="project-date">June, 2023 ~ Present</h4>
+          <h3 class="project-name">Bryan Website</h3>
+        </a>
+        <a class="project-item" href="project.html">
+          <div class="project-img-container">
+            <img
+              class="project-img"
+              src="Images/easy68-img.png"
+              alt="Easy68k code"
+            />
+          </div>
+          <h4 class="project-tool">Easy68k</h4>
+          <h4 class="project-date">May, 2023 ~ June, 2023</h4>
+          <h3 class="project-name">Easy68k Disassembler</h3>
+        </a>
+        <a class="project-item" href="project.html">
+          <div class="project-img-container">
+            <img
+              class="project-img"
+              src="Images/Home-Background.JPG"
+              alt="Something cool and long"
+            />
+          </div>
+          <h4 class="project-tool">HTML &bull; CSS &bull; Javascript</h4>
+          <h4 class="project-date">June, 2023 ~ Present</h4>
+          <h3 class="project-name">
+            Something very cool and has a really long name
+          </h3>
+        </a>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
 </html>

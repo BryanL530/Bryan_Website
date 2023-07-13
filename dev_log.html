@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
-  <link rel="stylesheet" href="Styles/style_dev.css">
-</head>
-<body>
-  <nav>
-    <a href="index.html">Home Page</a> | 
-    <a href="about_me.html">About me</a> | 
-    <a href="dev_log.html">Developement Log</a> | 
-    <a href="reference.html">Referece</a>
-  </nav>
-  <div id = "log-content">
-    <h1>Developement Log</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Styles/style_general.css" />
+    <link rel="stylesheet" href="Styles/style_nav.css" />
+    <link rel="stylesheet" href="Styles/style_dev.css" />
+  </head>
+  <body>
+    <nav class="top-nav">
+      <ul class="link-list">
+        <a class="nav-link" href="index.html">HOME</a>
+        <a class="nav-link" href="">ABOUT ME</a>
+        <a class="nav-link" href="project.html">PROJECT</a>
+        <a class="nav-link" href="dev_log.html">DEVELOPEMENT LOG</a>
+      </ul>
+      <ul class="link-icon"></ul>
+    </nav>
+    <div class="log-content">
+      <h1>Developement Log</h1>
 
-    <main class = "daily-log">
       <article>
-        <h2>Day 1 (6/8/22)</h2>
+        <h2>Log 1 (6/8/22)</h2>
         <p>
-          This is the first day of the learning practice,
-          I learned some basics of the html and css.
-          Overall, the stuff I see isn't too complicated or anything,
-          but it will definately take some practice to remember all the tag
-          in the blink of the thought. <br>
+          This is the first day of the learning practice, I learned some basics
+          of the html and css. Overall, the stuff I see isn't too complicated or
+          anything, but it will definately take some practice to remember all
+          the tag in the blink of the thought. <br />
         </p>
         <h3>Problems & Thoughts</h3>
         <ul>
           <li>
-            The navigation bar and background is repeated in all the pages;
-            I want to find a way to make them into one
+            The navigation bar and background is repeated in all the pages; I
+            want to find a way to make them into one
           </li>
           <li>
-            Writing dev log in webpage isn't ideal,
-            preferably to write it in a txt file.
+            Writing dev log in webpage isn't ideal, preferably to write it in a
+            txt file.
           </li>
           <li>
-            It seems like the previous problems might be solved with <strong>Javascript</strong>,
-            will take a look into it tomorrow.
+            It seems like the previous problems might be solved with
+            <strong>Javascript</strong>, will take a look into it tomorrow.
           </li>
         </ul>
       </article>
 
       <article>
-        <h2>Day 2 (6/17/22)</h2>
+        <h2>Log 2 (6/17/22)</h2>
         <p>
           This is finally the second day I can devote more hours to consider
-          working a full day. Over the past few days or even the last week,
-          I finally figure out how to make the nav bar stick to the top. Sticky
-          is the way to do it, it is better than fixed from what I see,
-          hopefully it is now supported on most if not all browsers.
-          My plan for the next few days is to grind through all the
-          <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">
+          working a full day. Over the past few days or even the last week, I
+          finally figure out how to make the nav bar stick to the top. Sticky is
+          the way to do it, it is better than fixed from what I see, hopefully
+          it is now supported on most if not all browsers. My plan for the next
+          few days is to grind through all the
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Learn"
+            target="_blank"
+          >
             MDN guides
           </a>
           I see for html and css as I think I am about to handle those within 2
@@ -64,26 +70,50 @@
       </article>
 
       <article>
-        <h2>Day 3 (6/19/22)</h2>
+        <h2>Log 3 (6/19/22)</h2>
         <p>
-          This MDN guide is definately longer than I expected, I am just 
-          finished with the HTML guide. It is mostly reading on something 
-          I know, but I did learn something new for the whole guide 
-          for HTML section. <br><br>
+          This MDN guide is definately longer than I expected, I am just
+          finished with the HTML guide. It is mostly reading on something I
+          know, but I did learn something new for the whole guide for HTML
+          section. <br /><br />
 
-          I really like the <code>&lt;sup&gt;</code> and 
+          I really like the <code>&lt;sup&gt;</code> and
           <code>&lt;sub&gt;</code>. It seems nice to format the text.
         </p>
         <h3>Problems & Thoughts</h3>
         <p>
-          I messed with a bit Javascript today when learning some of the HTML, 
-          It seems do be the way to sqeeze every daily-log into a more defined 
-          space. On the side notes, the string format is really weird to me, 
-          where "2+2" will pass in as 4.
-          as 4.
+          I messed with a bit Javascript today when learning some of the HTML,
+          It seems do be the way to sqeeze every daily-log into a more defined
+          space. On the side notes, the string format is really weird to me,
+          where "2+2" will pass in as 4. as 4.
         </p>
       </article>
-    </main>
-  </div>
-</body>
+
+      <article>
+        <h2>Log 4 (7/12/22)</h2>
+        <p>
+          It has been a while since I last wrote a log. As I ran out of idea on
+          how I should design the project page. Different from last month, more
+          and more concepts I learn on MDN guides are able to be applied
+          instantly, such as responsive media. Although I didn't have much
+          updated on the home page since the last update, I did manage to do a
+          bit of animation. Animation reminds me how much we as human rely on
+          changes to identify changes.
+        </p>
+        <h3>Problems & Thoughts</h3>
+        <ul>
+          <li>Animations gives us queues on changes</li>
+          <li>Classes vs Selector combinations (except specificity)</li>
+          <li>How API are used in JS (haven't learn JS just yet)</li>
+        </ul>
+        <h3>Plans</h3>
+        <ul>
+          <li>Finish CSS lesson before late July</li>
+          <li>Design the project page and polish this page</li>
+          <li>Learn JS and do some Leetcode on it</li>
+          <li>Play with other API</li>
+        </ul>
+      </article>
+    </div>
+  </body>
 </html>
