@@ -1,7 +1,7 @@
 .welcome-container {
   width: 100%;
   height: calc(100vh - 60px);
-  background-image: url(../Images/Home-Background.jpg);
+  background-image: url(../Images/home-background.jpg);
   background-size: cover;
   background-position: 0 -200px;
   color: white;  
