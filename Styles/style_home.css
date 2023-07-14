@@ -69,7 +69,7 @@ h1 {
 }
 
 .project {
-  padding: 20px 300px 40px;
+  padding: 20px 15% 40px;
   background-color: whitesmoke;
 }
 
@@ -85,7 +85,7 @@ h1 {
 }
 
 .project-item {
-  width: 400px;
+  max-width: 400px;
   overflow: hidden;
   position: relative;
   text-decoration: none;
