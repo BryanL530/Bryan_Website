@@ -3,9 +3,8 @@
 }
 
 html {
-    overflow: scroll;
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
   
 body {
   /* Default font settings */
@@ -23,6 +22,7 @@ footer {
   color: beige;
 }
 
+/* Font for Poppins */
 @font-face {
   font-family: 'Poppins';
   src: url(../Fonts/Poppins-SemiBold.ttf);
