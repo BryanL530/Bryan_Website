@@ -1,9 +1,9 @@
 .welcome-container {
   width: 100%;
-  height: calc(100vh - 60px);
+  height: 100vh;
   background-image: url(../Images/home-background.jpg);
   background-size: cover;
-  background-position: 0 -200px;
+  background-position: center 20%;
   color: white;  
 }
 
@@ -80,6 +80,7 @@ h1 {
 .project-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
